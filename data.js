@@ -1,6 +1,6 @@
-const CURRENT_STABLE_VERSION = '0.11.107';
-const CURRENT_BETA_VERSION = '0.11.107';
-const LAST_UPDATE_DATE = 'August 19th, 2022';
+const CURRENT_STABLE_VERSION = '1.10.105';
+const CURRENT_BETA_VERSION = '1.10.105';
+const LAST_UPDATE_DATE = 'May 15th, 2024';
 
 // cost, max rank
 const DATA = {
@@ -172,6 +172,35 @@ const DATA = {
       Reroll: [1000, 5],
       Skip: [100, 5],
       Banish: [100, 5],
+    },,
+  '1.10.105': {
+    costCalc: 'new',
+    powerUps: {
+      Might: [200, 5],
+      Armor: [600, 3],
+      'Max Health': [200, 3],
+      Recovery: [200, 5],
+      Cooldown: [900, 2],
+      Area: [300, 2],
+      Speed: [300, 2],
+      Duration: [300, 2],
+      Amount: [5000, 1],
+      MoveSpeed: [300, 2],
+      Magnet: [300, 2],
+      Luck: [600, 3],
+      Growth: [900, 5],
+      Greed: [200, 5],
+      Curse: [1666, 5],
+      Revival: [10000, 1],
+      Omni: [1000, 5],
+      Reroll: [1000, 5],
+      Skip: [100, 5],
+      Banish: [100, 5],
+      Charm: [10000, 5],
+      Defang: [10, 5],
+      'Seal I': [100, 5],
+      'Seal II': [100, 5],
+      'Seal III': [100, 5],
     },
   },
 };
